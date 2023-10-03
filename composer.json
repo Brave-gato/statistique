@@ -1,0 +1,26 @@
+{
+    "name": "gato/statistique",
+    "description": "librairy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gato Dev",
+            "email": "webrepoleved@gmail.com"
+        }
+    ],
+    "scripts": { "test": "vendor/bin/pest" },
+    "autoload":{
+        "psr-4": {
+            "Gatodev\\Statistique\\":"src/"
+        }
+    },
+  
+    "require-dev": {
+        "pestphp/pest": "^2.20"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
